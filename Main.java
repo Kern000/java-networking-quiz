@@ -6,7 +6,7 @@ public class Main {
 
         QuestionService service =  new QuestionService();
 
-        ArrayList<String> optionsList1 = new ArrayList<String>();
+        ArrayList<String> optionsList1 = new ArrayList<>();
         optionsList1.add("Dynamic Host Configuration Protocol (DHCP)");
         optionsList1.add("Switch Flooding");
         optionsList1.add("Domain Name System query (DNS query)");
@@ -18,9 +18,9 @@ public class Main {
                                             "Address Resolution Protocol (ARP)"                                            
                                             );
 
-        ArrayList<String> optionsList2 = new ArrayList<String>();
+        ArrayList<String> optionsList2 = new ArrayList<>();
         optionsList2.add("Network Address Translation (NAT)");
-        optionsList2.add("DHCP Discovery");
+        optionsList2.add("DHCP Discover");
         optionsList2.add("Static IP address");
         optionsList2.add("Link-Local IP address");
 
